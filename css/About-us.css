@@ -1,0 +1,71 @@
+body {
+    background-color: #e8eddf;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 300px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.row img{
+    width: 25%;
+}
+
+.checked {
+  color: orange !important;
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif !important; 
+}
+
+.fa-star {
+    color: gray;
+}
+
+hr{
+    "width:50%;
+}
+
+.italic {
+    font-style: italic !important;
+}
+
+#bottom {
+    background-color: #aa9144;
+    margin: auto;
+}
+
+#bottom .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  border-radius: 50%;
+    display: inline-block;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+    #testimonials .py-5{
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+    }
+    #testimonials .pt-4{
+        padding-top: 3px !important;
+    }
+}
